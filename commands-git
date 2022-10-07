@@ -2,6 +2,7 @@
 git clone git@github.com:monDossier
 
 - Les 3 commandes de push
-git remote add origin https://github.com/mounir-mekdour/git-begins..git
-git branch -M main
-git push -u origin main
+git add --all #si je souhaite commit tout les fichiers d'un coup
+git add nomdefichier #si je souhaite commit des fichiers specifie
+git commit -m "nom du commit"
+git push
